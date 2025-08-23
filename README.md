@@ -1,0 +1,1 @@
+This is the github repo for the unity project explored by Sahasra Kondapalli in BCI Club's 2nd workshop of Fall 2o25. This code contains the maze and player for the game further augmented through being controlled through brainwaves (hence the name).
