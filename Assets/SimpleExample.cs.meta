@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 35b4d627f8b174a40a97682d9f95699c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HeadsetId: {instanceID: 0}
+  - RecordTitle: {instanceID: 0}
+  - RecordDescription: {instanceID: 0}
+  - ProfileName: {instanceID: 0}
+  - ActionNameList: {instanceID: 0}
+  - MarkerValue: {instanceID: 0}
+  - MarkerLabel: {instanceID: 0}
+  - EEGToggle: {instanceID: 0}
+  - MOTToggle: {instanceID: 0}
+  - PMToggle: {instanceID: 0}
+  - CQToggle: {instanceID: 0}
+  - POWToggle: {instanceID: 0}
+  - EQToggle: {instanceID: 0}
+  - COMToggle: {instanceID: 0}
+  - FEToggle: {instanceID: 0}
+  - SYSToggle: {instanceID: 0}
+  - MessageLog: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

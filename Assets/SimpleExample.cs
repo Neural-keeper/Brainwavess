@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EmotivUnityPlugin;
 using UnityEngine.UI;
+using TMPro;
 
 public class SimpleExample : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class SimpleExample : MonoBehaviour
     private string _clientId;
     private string _clientSecret; 
     private string _appName = "Basic License";
-    private string _appVersion = "3.3.0";
 
     EmotivUnityItf _eItf = EmotivUnityItf.Instance;
     float _timerDataUpdate = 0;
@@ -19,15 +19,15 @@ public class SimpleExample : MonoBehaviour
     bool _isDataBufferUsing = false; // default subscribed data will not saved to Data buffer
 
 
-    [SerializeField] public InputField  HeadsetId;   // headsetId
-    [SerializeField] public InputField  RecordTitle;     // record Title
-    [SerializeField] public InputField  RecordDescription;     // record description
-    [SerializeField] public InputField  ProfileName;   // headsetId
+    [SerializeField] public TMP_InputField  HeadsetId;   // headsetId
+    [SerializeField] public TMP_InputField  RecordTitle;     // record Title
+    [SerializeField] public TMP_InputField  RecordDescription;     // record description
+    [SerializeField] public TMP_InputField  ProfileName;   // headsetId
 
-    [SerializeField] public Dropdown ActionNameList;
+    [SerializeField] public TMP_Dropdown ActionNameList;
 
-    [SerializeField] public InputField  MarkerValue;     // marker value
-    [SerializeField] public InputField  MarkerLabel;     // marker Label
+    [SerializeField] public TMP_InputField  MarkerValue;     // marker value
+    [SerializeField] public TMP_InputField  MarkerLabel;     // marker Label
     [SerializeField] public Toggle EEGToggle;
     [SerializeField] public Toggle MOTToggle;
     [SerializeField] public Toggle PMToggle;
@@ -38,7 +38,7 @@ public class SimpleExample : MonoBehaviour
     [SerializeField] public Toggle FEToggle;
     [SerializeField] public Toggle SYSToggle;
 
-    [SerializeField] public Text MessageLog;
+    [SerializeField] public TMP_Text MessageLog;
     
     
     void Start()
