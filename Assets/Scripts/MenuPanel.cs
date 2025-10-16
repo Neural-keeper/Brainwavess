@@ -1,23 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MenuPanel : MonoBehaviour
 {
-    int _isOpen = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject menuPanel; // Assign your menu panel in Inspector
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)){
-            gameObject.GetComponent<CanvasScaler>().scaleFactor = _isOpen;
-            _isOpen = ++_isOpen % 2;
+        // Check if Escape was pressed
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // Toggle the panel
+            bool isActive = menuPanel.activeSelf;
+            menuPanel.SetActive(!isActive);
         }
     }
 }
+
